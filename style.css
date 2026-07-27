@@ -64,6 +64,11 @@ header a:hover {
     background: red;
 }
 
+header #gmail {
+    letter-spacing: 2px;
+    color: red;
+}
+
 /* menu */
 .menu {
     margin-top: 20px;
@@ -120,6 +125,18 @@ header a:hover {
 }
 .tugas .utama p {
     margin-bottom: 15px;
+}
+.tugas .utama img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.tugas .utama a {
+    color: white;
+    text-decoration: none;
+    background: green;
+    padding: 5px 8px;
+    border-radius: 5px;
 }
 
 @media (max-width: 600px) {
